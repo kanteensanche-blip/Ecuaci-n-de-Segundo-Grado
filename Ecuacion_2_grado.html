@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="icon" type="image/png" href="imagenes/logo_calc_ecuaciones_02.png">  
+            <title>Ecuación de Segundo Grado</title>
+            <link rel="stylesheet" type="text/css" href="Ecuacion_2_grado.css">
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="Ecuacion_2_grado.js" defer></script> 
+        <div class="panel">
+            <h2>Ecuación de Segundo Grado</h2>
+            
+            <p>
+                Introduce los coeficientes de la ecuación :
+                <Strong>ax² + bx + c = 0</Strong>
+
+            </p>
+            <input type="number" id="valor_a" placeholder="Introduce el valor de a">
+            <br>
+            <input type="number" id="valor_b" placeholder="Introduce el valor de b">
+            <br>
+            <input type="number" id="valor_c" placeholder="Introduce el valor de c">
+            <br>
+            <input type="button" class="botones" id="boton_Calcular" value="Calcular" onclick="enviar_datos_al_servidor()">    
+        </div>
+        
+
+
+</html>
